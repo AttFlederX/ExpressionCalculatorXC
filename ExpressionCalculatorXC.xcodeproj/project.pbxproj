@@ -12,6 +12,8 @@
 		660CD6602292A20B003868B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660CD65E2292A20B003868B3 /* Main.storyboard */; };
 		660CD6622292A210003868B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660CD6612292A210003868B3 /* Assets.xcassets */; };
 		660CD6652292A210003868B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660CD6632292A210003868B3 /* LaunchScreen.storyboard */; };
+		66436DA02292EC0F0084110B /* RPNCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66436D9F2292EC0F0084110B /* RPNCalculator.swift */; };
+		66436DA22292EC880084110B /* RPNConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66436DA12292EC880084110B /* RPNConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		660CD6612292A210003868B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		660CD6642292A210003868B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		660CD6662292A210003868B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66436D9F2292EC0F0084110B /* RPNCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPNCalculator.swift; sourceTree = "<group>"; };
+		66436DA12292EC880084110B /* RPNConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPNConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		660CD6592292A20B003868B3 /* ExpressionCalculatorXC */ = {
 			isa = PBXGroup;
 			children = (
+				66436D9E2292EBE40084110B /* Models */,
 				660CD65A2292A20B003868B3 /* AppDelegate.swift */,
 				660CD65C2292A20B003868B3 /* ViewController.swift */,
 				660CD65E2292A20B003868B3 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				660CD6662292A210003868B3 /* Info.plist */,
 			);
 			path = ExpressionCalculatorXC;
+			sourceTree = "<group>";
+		};
+		66436D9E2292EBE40084110B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66436D9F2292EC0F0084110B /* RPNCalculator.swift */,
+				66436DA12292EC880084110B /* RPNConverter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				660CD65D2292A20B003868B3 /* ViewController.swift in Sources */,
+				66436DA22292EC880084110B /* RPNConverter.swift in Sources */,
+				66436DA02292EC0F0084110B /* RPNCalculator.swift in Sources */,
 				660CD65B2292A20B003868B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
