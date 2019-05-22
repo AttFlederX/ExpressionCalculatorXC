@@ -58,36 +58,16 @@
                                                         <real key="value" value="12"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5y-AE-zXG">
-                                                <rect key="frame" x="128" y="0.0" width="112.5" height="44"/>
-                                                <color key="backgroundColor" name="AccentColor"/>
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                                                <color key="tintColor" name="TextColor"/>
-                                                <state key="normal" title="CE">
-                                                    <color key="titleColor" name="TextColor"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="12"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" name="TextColor"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="2"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="12"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="clearTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WU4-iv-6zN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-pT-mrq">
-                                                <rect key="frame" x="256.5" y="0.0" width="117.5" height="44"/>
+                                                <rect key="frame" x="128" y="0.0" width="246" height="44"/>
                                                 <color key="backgroundColor" name="AccentColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                                 <color key="tintColor" name="TextColor"/>
-                                                <state key="normal" title="Bksp">
+                                                <state key="normal" title="Backspace">
                                                     <color key="titleColor" name="TextColor"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -104,11 +84,13 @@
                                                         <real key="value" value="12"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="backspaceTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RMJ-hL-zLP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="2FD-3e-YS3"/>
-                                            <constraint firstItem="s5y-AE-zXG" firstAttribute="width" secondItem="ybP-nK-jtJ" secondAttribute="width" multiplier="0.3" id="GyT-6s-1L2"/>
                                             <constraint firstItem="hvS-mw-y4t" firstAttribute="width" secondItem="ybP-nK-jtJ" secondAttribute="width" multiplier="0.3" id="TDL-A9-F9k"/>
                                         </constraints>
                                     </stackView>
@@ -235,6 +217,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="equalsTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sb7-Sm-hS9"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -295,6 +280,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="em5-EF-c4b"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G29-GY-UvY">
                                                         <rect key="frame" x="154.5" y="0.0" width="69" height="69.5"/>
@@ -318,6 +306,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8eS-AD-SVm"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYx-NS-WYj">
                                                         <rect key="frame" x="231.5" y="0.0" width="69.5" height="69.5"/>
@@ -341,6 +332,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aak-f6-nQA"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFg-rH-gdS">
                                                         <rect key="frame" x="309" y="0.0" width="65" height="69.5"/>
@@ -364,6 +358,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="operatorTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JDC-LQ-iC9"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -398,6 +395,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="operatorTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYO-5B-aY6"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1E-XP-sD0">
                                                         <rect key="frame" x="77" y="0.0" width="69.5" height="69"/>
@@ -424,6 +424,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w45-v0-Feb"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oeu-OO-pcd">
                                                         <rect key="frame" x="154.5" y="0.0" width="69" height="69"/>
@@ -447,6 +450,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwJ-1o-QGz"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXp-CT-HVQ">
                                                         <rect key="frame" x="231.5" y="0.0" width="69.5" height="69"/>
@@ -470,6 +476,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bna-kH-WJp"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gV-3V-CeE">
                                                         <rect key="frame" x="309" y="0.0" width="65" height="69"/>
@@ -493,6 +502,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="operatorTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eWb-9i-mwM"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -527,6 +539,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="leftParenthesisTuchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6M-Lw-ZIx"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnV-Ip-qbl">
                                                         <rect key="frame" x="77" y="0.0" width="69.5" height="69.5"/>
@@ -553,6 +568,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="beh-2c-ntP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmS-rw-KNq">
                                                         <rect key="frame" x="154.5" y="0.0" width="69" height="69.5"/>
@@ -576,6 +594,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IcZ-xy-vcc"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5c1-28-tw1">
                                                         <rect key="frame" x="231.5" y="0.0" width="69.5" height="69.5"/>
@@ -599,6 +620,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="digitTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S64-No-qyv"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVm-tP-7oq">
                                                         <rect key="frame" x="309" y="0.0" width="65" height="69.5"/>
@@ -622,6 +646,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="operatorTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="thW-zh-WiO"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -656,6 +683,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="rightParenthesisTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nq3-If-fBX"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lc9-dw-nkG">
                                                         <rect key="frame" x="77" y="0.0" width="69.5" height="69"/>
@@ -682,6 +712,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="zeroTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9OY-b7-2fM"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="617-2t-0LJ">
                                                         <rect key="frame" x="154.5" y="0.0" width="69" height="69"/>
@@ -705,6 +738,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="decimalTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZWH-cz-myY"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqK-mM-6LC">
                                                         <rect key="frame" x="231.5" y="0.0" width="69.5" height="69"/>
@@ -728,6 +764,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="plusMinusTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dzs-hI-ZFo"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMx-1x-bdS">
                                                         <rect key="frame" x="309" y="0.0" width="65" height="69"/>
@@ -751,6 +790,9 @@
                                                                 <real key="value" value="12"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="operatorTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRj-LK-NPI"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -781,6 +823,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="inputTextField" destination="Llp-tk-fy3" id="Rqp-TF-FIe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
