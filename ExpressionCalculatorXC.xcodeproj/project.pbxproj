@@ -15,6 +15,7 @@
 		66436DA02292EC0F0084110B /* RPNCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66436D9F2292EC0F0084110B /* RPNCalculator.swift */; };
 		66436DA22292EC880084110B /* RPNConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66436DA12292EC880084110B /* RPNConverter.swift */; };
 		6666B6A52293C14400258BB8 /* OpList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666B6A42293C14400258BB8 /* OpList.swift */; };
+		6666B6A8229661F600258BB8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666B6A7229661F600258BB8 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		66436D9F2292EC0F0084110B /* RPNCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPNCalculator.swift; sourceTree = "<group>"; };
 		66436DA12292EC880084110B /* RPNConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPNConverter.swift; sourceTree = "<group>"; };
 		6666B6A42293C14400258BB8 /* OpList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpList.swift; sourceTree = "<group>"; };
+		6666B6A7229661F600258BB8 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		660CD6592292A20B003868B3 /* ExpressionCalculatorXC */ = {
 			isa = PBXGroup;
 			children = (
+				6666B6A6229661DD00258BB8 /* Extensions */,
 				66436D9E2292EBE40084110B /* Models */,
 				660CD65A2292A20B003868B3 /* AppDelegate.swift */,
 				660CD65C2292A20B003868B3 /* ViewController.swift */,
@@ -87,6 +90,14 @@
 				6666B6A42293C14400258BB8 /* OpList.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		6666B6A6229661DD00258BB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6666B6A7229661F600258BB8 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6666B6A8229661F600258BB8 /* UIViewExtension.swift in Sources */,
 				660CD65D2292A20B003868B3 /* ViewController.swift in Sources */,
 				66436DA22292EC880084110B /* RPNConverter.swift in Sources */,
 				66436DA02292EC0F0084110B /* RPNCalculator.swift in Sources */,
